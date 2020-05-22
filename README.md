@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+Implemented simple calculator using flutter.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget buildbutton(String number) {
     return new Expanded(
-      child: new MaterialButton(
+      child: new OutlineButton(
         padding: new EdgeInsets.all(24.0),
         child: new Text(
           number,
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         onPressed: () => apply(number),
         color: Colors.lightGreen,
-        textColor: Colors.white,
+        textColor: Colors.black,
       ),
     );
   }
